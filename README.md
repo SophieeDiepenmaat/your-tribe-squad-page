@@ -24,6 +24,7 @@ De website is gebouwd met uitsluitend HTML en CSS.
 
 <b>Head</b>
 </br>In de head van de website staan een aantal Google Fonts imports en de algemene stylesheet binnen style/style.css. Zie hieronder de links:
-<pre><link rel="preconnect" href="https://fonts.googleapis.com"></pre>
+
+[](https://github.com/SophieeDiepenmaat/your-tribe-squad-page/blob/7f92bf40dbc42c085596e6428cd52efd50db870d/index.html#L6-L9)
 
 # Bronnen
