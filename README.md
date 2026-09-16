@@ -38,4 +38,8 @@ De main bevat vier secties en een svg element. De svg heeft uitsluitend een deco
 De eerste sectie bevat een grid container waarin alle elementen zijn geordend via grid-areas. De foto's zijn hiermee ten alle tijden gemakkelijk te vervangen en verplaatsen door de namen of bronnen te wijzigen, zonder dat er met specifieke child volgorde rekening gehouden hoeft te worden.
 https://github.com/SophieeDiepenmaat/your-tribe-squad-page/blob/7f92bf40dbc42c085596e6428cd52efd50db870d/index.html#L14-L59
 
+De tweede sectie weergeeft alle visitekaartjes die getoond worden via een horizontale scroll. Hiervoor hoeft de gebruiker geen Apple Magic Mouse te hebben, of via een scrollbalk te slepen, maar kan de bezoeker simpelweg naar beneden blijven scrollen. Dit is gerealiseerd door de sectie via de CSS property 'rotate' op z'n zij te draaien en de elementen hierbinnen visueel te corrigeren, zodat de scroll ervaring simpel en toegankelijk blijft.
+
+Zie hieronder de toegepaste CSS:
+https://github.com/SophieeDiepenmaat/your-tribe-squad-page/blob/28a4a30bb14e4d4e5ef42e57d185ca96e3422c0b/styles/style.css#L132-L160
 # Bronnen
