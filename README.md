@@ -22,11 +22,20 @@ De Amstelcampusbevat een simpelere interactie, waarbij een klik voldoende is om 
 # Kenmerken
 De website is gebouwd met uitsluitend HTML en CSS.
 
-<b>Head</b>
+**Head**
 </br>In de head staan een aantal Google Fonts imports voor de font families 'Carter One' en 'Inter'. Zie de regels hieronder:
 https://github.com/SophieeDiepenmaat/your-tribe-squad-page/blob/7f92bf40dbc42c085596e6428cd52efd50db870d/index.html#L6-L8
 
 De verwijzing naar het algemene stijling bestand staat er direct onder binnen de head:
 https://github.com/SophieeDiepenmaat/your-tribe-squad-page/blob/7f92bf40dbc42c085596e6428cd52efd50db870d/index.html#L9
+
+**Body**
+</br>De structuur van de body is MAIN en FOOTER, er is namelijk geen header navigatie ontwikkeld voor de website.
+
+**Main**
+De main bevat vier secties en een svg element. De svg heeft uitsluitend een decoratief doeleinde, en staat tussen de hero banner en de sectie van de visitekaartjes.
+
+De eerste sectie bevat een grid container waarin alle elementen zijn geordend via grid-areas. De foto's zijn hiermee ten alle tijden gemakkelijk te vervangen en verplaatsen door de namen of bronnen te wijzigen, zonder dat er met specifieke child volgorde rekening gehouden hoeft te worden.
+https://github.com/SophieeDiepenmaat/your-tribe-squad-page/blob/7f92bf40dbc42c085596e6428cd52efd50db870d/index.html#L14-L59
 
 # Bronnen
