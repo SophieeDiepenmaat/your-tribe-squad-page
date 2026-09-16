@@ -48,3 +48,8 @@ https://github.com/SophieeDiepenmaat/your-tribe-squad-page/blob/5c0ebaa503754f47
 https://github.com/SophieeDiepenmaat/your-tribe-squad-page/blob/5c0ebaa503754f478ff4b677fb150c2ceb26d62e/styles/style.css#L175-L207
 
 # Bronnen
+https://fonts.google.com/specimen/Carter+One
+</br>https://fonts.google.com/specimen/Inter
+</br>https://css-tricks.com/almanac/properties/g/grid-area/
+</br>https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/transform-function/rotate
+</br>https://css-tricks.com/pure-css-horizontal-scrolling/
