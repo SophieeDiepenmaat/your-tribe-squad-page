@@ -1,0 +1,253 @@
+html {
+    font-family: "Inter", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Carter One", system-ui;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    margin: unset;
+    background-color: black;
+}
+
+/* Algemene layout */
+.row {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Afbeeldingen hero */
+.hero-banner {
+    min-height: 100vh;
+}
+
+.hero-banner:after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg,rgba(0, 0, 0, .75) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, .75) 100%);
+    z-index: 1;
+}
+
+.hero-banner-container {
+    position: fixed;
+    display: grid;
+    grid-template-areas:
+    'jarellsa jesper joost justin lyanne lou sam rick'
+    'lois hva miriale rosa younes wesley david bounyad'
+    'yigal rowynn sophie text text ahmet britt beyza'
+    'noey rayhana sun chahed queeny thijs rabia hajar'
+    'melissa aya savannah lyndsey celeste sami aliya mika';
+    grid-gap: .5rem;
+    height: 100%;
+    background-color: black;
+    transform: rotate(3deg);
+}
+
+.hero-banner-container img {
+    height: calc(100vh / 5);
+    width: 100%;
+    object-fit: cover;
+    &[src*="Jarellsa"] {grid-area: jarellsa;}
+    &[src*="Jesper"] {grid-area: jesper;}
+    &[src*="Joost"] {grid-area: joost;}
+    &[src*="Justin"] {grid-area: justin;}
+    &[src*="Lyanne"] {grid-area: lyanne;}
+    &[src*="Lou"] {grid-area: lou;}
+    &[src*="Sam"] {grid-area: sam;}
+    &[src*="Rick"] {grid-area: rick;}
+    &[src*="Loïs"] {grid-area: lois;}
+    &[src*="Hva"] {grid-area: hva;}
+    &[src*="Miriale"] {grid-area: miriale;}
+    &[src*="Rosa"] {grid-area: rosa;}
+    &[src*="Younes"] {grid-area: younes;}
+    &[src*="Wesley"] {grid-area: wesley;}
+    &[src*="David"] {grid-area: david;}
+    &[src*="Bounyad"] {grid-area: bounyad;}
+    &[src*="Yigal"] {grid-area: yigal;}
+    &[src*="Rowynn"] {grid-area: rowynn;}
+    &[src*="Sophie"] {grid-area: sophie;}
+    &[src*="Ahmet"] {grid-area: ahmet;}
+    &[src*="Britt"] {grid-area: britt;}
+    &[src*="Beyza"] {grid-area: beyza;}
+    &[src*="Noey"] {grid-area: noey;}
+    &[src*="Rayhana"] {grid-area: rayhana;}
+    &[src*="Sun"] {grid-area: sun;}
+    &[src*="Chahed"] {grid-area: chahed;}
+    &[src*="Queeny"] {grid-area: queeny;}
+    &[src*="Thijs"] {grid-area: thijs;}
+    &[src*="Rabia"] {grid-area: rabia;}
+    &[src*="Hajar"] {grid-area: hajar;}
+    &[src*="Melissa"] {grid-area: melissa;}
+    &[src*="Aya"] {grid-area: aya;}
+    &[src*="Savannah"] {grid-area: savannah;}
+    &[src*="Lyndsey"] {grid-area: lyndsey;}
+    &[src*="Celeste"] {grid-area: celeste;}
+    &[src*="Sami"] {grid-area: sami;}
+    &[src*="Aliya"] {grid-area: aliya;}
+    &[src*="Mika"] {grid-area: mika;}
+}
+
+.hero-banner-container hgroup {
+    grid-area: text;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transform: rotate(-3deg);
+
+    & * {
+        color: white;
+    }
+}
+
+.hero-banner-container hgroup h1 {
+    margin: 10px 0 0 0;
+    font-size: clamp(1rem, 15.1751vw - 6.2746rem, 3.4375rem);
+}
+
+.hero-banner-container hgroup p {
+    margin: 0 0 10px 0;
+}
+
+/* SVG shape divider */
+.visitekaartje-divider {
+    z-index: 1;
+    position: relative;
+}
+
+/* Visitekaartjes */
+.cards-section {
+    background-color: #FFFFD7;
+    background-image: radial-gradient(black 1px, transparent 0);
+    background-size: 40px 40px;
+    background-position: -19px -19px;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.cards-section-wrapper {
+    transform: rotate(-90deg);
+    height: 100vw;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+}
+
+.cards-section-container {
+    margin: 0 auto;
+    padding: 50px 20px;
+    transform: rotate(90deg);
+    display: grid;
+    grid-row-gap: 1.75rem;
+}
+
+.cards-section h2 {
+    margin: unset;
+    font-size: clamp(1rem, 15.1751vw - 6.2746rem, 3.4375rem);
+}
+
+/* Direct parent container of cards */
+.cards-section article {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+}
+
+.cards-section figure {
+    aspect-ratio: 3/4;
+    width: 12.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border: 1.25rem solid white;
+    border-bottom-width: 1rem;
+    border-radius: 10px;
+    margin: unset;
+    transition: .4s;
+}
+
+.cards-section figure div {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.cards-section figure img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 5/4;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+.cards-section figure:hover img {
+    translate: -100%;
+}
+
+.cards-section figure h3 {
+    font-size: clamp(1rem, 5.4475vw - 1.6114rem, 1.875rem);
+    margin: 4px 0;
+}
+
+.cards-section figure a {
+    font-weight: bold;
+    background-color: #D9D9D9;
+    border: unset;
+    padding: 12px 20px;
+    border-radius: 99px;
+    color: black;
+    text-decoration: unset;
+    transition: .3s;
+
+    &:hover {
+        background-color: black;
+        color: white;
+    }
+}
+
+/* Cards styling and tilting */
+.cards-section .cards-first-row figure:nth-child(3n - 2),
+.cards-section .cards-second-row figure:nth-child(3n) {
+    rotate: -3deg;
+    &:hover {
+        rotate: -1deg;
+    }
+}
+
+.cards-section .cards-first-row figure:nth-child(3n - 1),
+.cards-section .cards-second-row figure:nth-child(3n - 1) {
+    rotate: 5deg;
+    &:hover {
+        rotate: 2deg;
+    }
+}
+
+.cards-section .cards-first-row figure:nth-child(3n),
+.cards-section .cards-second-row figure:nth-child(3n - 2) {
+    rotate: 2deg;
+    &:hover {
+        rotate: 0deg;
+    }
+}
