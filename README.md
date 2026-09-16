@@ -8,14 +8,16 @@ Ontwikkeld door Sophie, Sun en Ahmet.
 </br><a href="#bronnen">Bronnen</a>
 
 # Beschrijving
-Voor de Klas K van het eerste jaar in de opleiding Frontend Design & Development moet er een archiefpagina worden ontwikkeld, waar alle ontwikkelde visitekaartjes worden weergeven. Verder moet de Amstelcampus ook uitgelicht worden. Dit is een team opdracht die via GitHub uitgevoerd en geplaatst dient te worden.
+Voor de Klas K van het eerste jaar in de opleiding Frontend Design & Development moet er een archiefpagina worden ontwikkeld, waar alle ontwikkelde visitekaartjes worden weergeven. Verder moet de Amstelcampus en de bijbehorende faciliteiten ook uitgelicht worden. Dit is een team opdracht die via GitHub uitgevoerd en geplaatst dient te worden.
 
 Link naar site: https://edu.nl/3cpeq
 
 # Gebruik
-Op de omgeving kan de gebruiker wegens scrollen de volledige content bereiken. Bij de visitekaartjes kan men hoveren en klikken om de desbetreffende kaartjes te bezoeken.
+Op de omgeving kan de gebruiker wegens scrollen de volledige content bekijken, hierbij zijn geen klikken vereist. Bij de visitekaartjes kan de bezoeker over de kaarten hoveren en klikken om een voorvertoning te krijgen van de ontwikkelde kaarten van de desbetreffende persoon, waarbij deze via de knop eronder bereikbaar zijn.
 
-De Amstelcampus werkt vergelijkbaar, waarbij de bezoeker kan klikken op de tiles om meer info te zien wegens een link.
+De gehele sectie waarin de visitekaartjes zich bevinden is horizontaal te scrollen, door simpelweg binnen de sectie naar beneden te scrollen zonder onverwachte handelingen. Het verlaten van deze sectie gebeurt automatisch zodra de lengte van de sectie ten einde is gekomen.
+
+De Amstelcampusbevat een simpelere interactie, waarbij een klik voldoende is om te navigeren naar de bijbehorende HvA pagina.
 
 # Kenmerken
 Head
