@@ -23,8 +23,10 @@ De Amstelcampusbevat een simpelere interactie, waarbij een klik voldoende is om 
 De website is gebouwd met uitsluitend HTML en CSS.
 
 <b>Head</b>
-</br>In de head van de website staan een aantal Google Fonts imports en de algemene stylesheet binnen style/style.css. Zie hieronder de links:
+</br>In de head staan een aantal Google Fonts imports voor de font families 'Carter One' en 'Inter'. Zie de regels hieronder:
+https://github.com/SophieeDiepenmaat/your-tribe-squad-page/blob/7f92bf40dbc42c085596e6428cd52efd50db870d/index.html#L6-L8
 
-[](https://github.com/SophieeDiepenmaat/your-tribe-squad-page/blob/7f92bf40dbc42c085596e6428cd52efd50db870d/index.html#L6-L9)
+De verwijzing naar het algemene stijling bestand staat er direct onder binnen de head:
+https://github.com/SophieeDiepenmaat/your-tribe-squad-page/blob/7f92bf40dbc42c085596e6428cd52efd50db870d/index.html#L9
 
 # Bronnen
