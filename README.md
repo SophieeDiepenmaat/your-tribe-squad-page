@@ -2,13 +2,13 @@
 Ontwikkeld door Sophie, Sun en Ahmet.
 
 # Inhoudsopgave
-Beschrijving
-Gebruik
-Kenmerken
-Bronnen
+<a href="#beschrijving">Beschrijving</a>
+</br><a href="#gebruik">Gebruik</a>
+</br><a href="#kenmerken">Kenmerken</a>
+</br><a href="#bronnen">Bronnen</a>
 
 # Beschrijving
-Voor de squad moet er een archiefpagina worden ontwikkeld, waar alle ontwikkelde visitekaartjes worden weergeven. Verder moet de Amstelcampus ook uitgelicht worden. Dit is een team opdracht die via GitHub uitgevoerd en geplaatst dient te worden.
+Voor de Klas K van het eerste jaar in de opleiding Frontend Design & Development moet er een archiefpagina worden ontwikkeld, waar alle ontwikkelde visitekaartjes worden weergeven. Verder moet de Amstelcampus ook uitgelicht worden. Dit is een team opdracht die via GitHub uitgevoerd en geplaatst dient te worden.
 
 Link naar site: https://edu.nl/3cpeq
 
@@ -19,3 +19,5 @@ De Amstelcampus werkt vergelijkbaar, waarbij de bezoeker kan klikken op de tiles
 
 # Kenmerken
 Head
+
+# Bronnen
