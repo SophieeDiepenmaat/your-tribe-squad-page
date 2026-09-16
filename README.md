@@ -20,6 +20,10 @@ De gehele sectie waarin de visitekaartjes zich bevinden is horizontaal te scroll
 De Amstelcampusbevat een simpelere interactie, waarbij een klik voldoende is om te navigeren naar de bijbehorende HvA pagina.
 
 # Kenmerken
-Head
+De website is gebouwd met uitsluitend HTML en CSS.
+
+<b>Head</b>
+</br>In de head van de website staan een aantal Google Fonts imports en de algemene stylesheet binnen style/style.css. Zie hieronder de links:
+<pre><link rel="preconnect" href="https://fonts.googleapis.com"></pre>
 
 # Bronnen
