@@ -42,4 +42,9 @@ De tweede sectie weergeeft alle visitekaartjes die getoond worden via een horizo
 
 Zie hieronder de toegepaste CSS:
 https://github.com/SophieeDiepenmaat/your-tribe-squad-page/blob/28a4a30bb14e4d4e5ef42e57d185ca96e3422c0b/styles/style.css#L132-L160
+
+De visitekaartjes bevatten verder een simpele hover animatie waarbij een kleine preview wordt vrijgegeven die de mugshot van de personen vervangt. Vervolgens kan je op de knop onder de personen direct navigeren naar de achterliggende visitekaartjes, die geopend worden in een nieuw tabblad. Zo behouden we gebruikers op de website, zonder ze definitief weg te sturen. Zie hieronder de toegepaste HTML en CSS.
+https://github.com/SophieeDiepenmaat/your-tribe-squad-page/blob/5c0ebaa503754f478ff4b677fb150c2ceb26d62e/index.html#L74-L81
+https://github.com/SophieeDiepenmaat/your-tribe-squad-page/blob/5c0ebaa503754f478ff4b677fb150c2ceb26d62e/styles/style.css#L175-L207
+
 # Bronnen
