@@ -150,6 +150,40 @@ body {
     margin: 0 0 10px 0;
 }
 
+.qr-code-container {
+    position: absolute;
+    top: 50%;
+    right: -10vw;
+    translate: 0 -50%;
+    display: flex;
+    align-items: center;
+    transition: .2s ease;
+    z-index: 9;
+
+    &:hover {
+        right: 0;
+    }
+
+    @media (width < 48rem) {
+        display: none;
+    }
+}
+
+.qr-code-container p {
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border-radius: 99px 0 0 99px;
+}
+
+.qr-code {
+    width: 10vw;
+    aspect-ratio: 1/1;
+    display: block;
+}
+
 /* SVG shape divider */
 .visitekaartje-divider {
     z-index: 1;
