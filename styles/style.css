@@ -369,9 +369,9 @@ body {
 
     @media (width > 48rem) {
         &::before {
-            width: 7rem;
+            width: 80%;
             height: 1.75rem;
-            translate: -15% 120%;
+            translate: -25% 120%;
         }
     }
 }
@@ -400,9 +400,9 @@ body {
 
     @media (width > 48rem) {
         &::before {
-            width: 6rem;
+            width: 70%;
             height: 1.75rem;
-            translate: 10% 100%;
+            translate: 25% 100%;
         }
     }
 }
@@ -431,9 +431,9 @@ body {
 
     @media (width > 48rem) {
         &::before {
-            width: 5rem;
+            width: 50%;
             height: 1.75rem;
-            translate: -50% 20%;
+            translate: -50% -20%;
         }
     }
 }
