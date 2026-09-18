@@ -47,6 +47,8 @@ De visitekaartjes bevatten verder een simpele hover animatie waarbij een kleine 
 https://github.com/SophieeDiepenmaat/your-tribe-squad-page/blob/5c0ebaa503754f478ff4b677fb150c2ceb26d62e/index.html#L74-L81
 https://github.com/SophieeDiepenmaat/your-tribe-squad-page/blob/5c0ebaa503754f478ff4b677fb150c2ceb26d62e/styles/style.css#L175-L207
 
+De derde sectie bevat de Amstelcampus die weergeven wordt via een masonry grid systeem. Via de kaarten krijgt de gebruiker een korte preview per locatie en de bijbehorende faciliteiten, waarbij deze ook gelijk kan navigeren naar de desbetreffende locatie wegens de knop met een pijl die in de kaarten staan. Op de kaarten staan ook hover states om extra te benadrukken dat er interactie mogelijkheden zijn, zodat deze gestimuleerd worden om te ondernemen.
+
 # Bronnen
 https://fonts.google.com/specimen/Carter+One
 </br>https://fonts.google.com/specimen/Inter
