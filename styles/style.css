@@ -1,6 +1,7 @@
 html {
     font-family: "Inter", sans-serif;
     scroll-snap-type: y proximity;
+    overflow-x: clip;
     overflow-y: scroll;
     scroll-behavior: smooth;
 }
